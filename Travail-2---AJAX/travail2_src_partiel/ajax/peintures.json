@@ -1,0 +1,32 @@
+{
+	"peinture": [
+	  {
+		"code": "chat",
+		"titre": "Le chat gris",
+		"artiste": "Louise Lauzon",
+		"prix": "1479$ CAD",
+		"image": "chat_gris.jpg"
+	  },
+	  {
+		"code": "fleuve",
+		"titre": "Vue sur le fleuve",
+		"artiste": "Gil Robitail",
+		"prix": "1087$ CAD",
+		"image": "vue_fleuve.jpg"
+	  },
+	  {
+		"code": "lune",
+		"titre": "C'est la pleine lune cette nuit",
+		"artiste": "Guy Paquet",
+		"prix": "2796$ CAD",
+		"image": "pleine_lune.jpg"
+	  },
+	  {
+		"code": "perso",
+		"titre": "j'ai pas d'idée de titre !",
+		"artiste": "Nelson Junior YN",
+		"prix": "5000$ CAD pour le JSON",
+		"image": "cchic.png"
+	  }
+	]
+}

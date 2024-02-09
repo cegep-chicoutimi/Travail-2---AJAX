@@ -1,0 +1,44 @@
+body {
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,39,159,1) 19%, rgba(0,151,255,1) 100%); 
+}
+
+header, nav, main {
+	background-color: rgba(255,255,255,0.85);
+	border: 1px solid black;
+	display: block;
+	margin: 15px auto;
+	padding: 15px;
+	text-align: center;
+	max-width: 750px;
+}
+
+main img {
+	border: 1px solid #bbb;
+	display: block;
+	margin: auto;
+	padding: 2px;
+	height: 200px;
+	width: 200px;
+}
+
+main table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+main table td {
+	border-bottom: 1px solid #bbb;
+	padding: 5px;
+}
+
+main table td:first-child {
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	width: 150px;
+}
+
+main table td:last-child {
+	text-align: left;
+}

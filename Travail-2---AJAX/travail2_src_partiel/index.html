@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="fr">
+	<head>
+		<title>Introduction AJAX</title>
+		<meta charset="utf-8" />
+		<link type="text/css" rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body onload="Init()">
+		<!--
+		Référence : http://www.galerieiris.com/
+		-->
+		
+		<header>
+			<h2>Introduction AJAX</h2>
+		</header>
+		
+		<nav>
+			<input type="radio" name="peinture" onclick="ChargerInfo(this);" value="chat" />Chat
+			<input type="radio" name="peinture" onclick="ChargerInfo(this);" value="fleuve" />Fleuve
+			<input type="radio" name="peinture" onclick="ChargerInfo(this);" value="lune" />Lune
+			<input type="radio" name="peinture" onclick="ChargerInfo(this);" value="perso" />[perso]
+			&nbsp;&nbsp;&nbsp;
+			<select id="typefichier">
+				<option value="json" selected="selected">JSON</option>
+				<option value="xml">XML</option>
+			</select>
+		</nav>
+		
+		<main>
+			<img id="peinture" src="img/defaut.jpg" alt="Peinture" /><br />
+			<table>
+				<tr>
+					<td>Titre :</td>
+					<td><span id="titre"></span></td>
+				</tr>
+				<tr>
+					<td>Artiste :</td>
+					<td><span id="artiste"></span></td>
+				</tr>
+				<tr>
+					<td>Prix :</td>
+					<td><span id="prix"></span></td>
+				</tr>
+				<tr>
+					<td>Information :</td>
+					<td><span id="info"></span></td>
+				</tr>
+			</table>
+		</main>
+	</body>
+</html>

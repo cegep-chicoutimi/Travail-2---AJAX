@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<collection>
+	<peinture>
+		<code>chat</code>
+		<titre>Le chat gris</titre>
+		<artiste>Louise Lauzon</artiste>
+		<prix>1479$ CAD</prix>
+		<image>chat_gris.jpg</image>
+	</peinture>
+	<peinture>
+		<code>fleuve</code>
+		<titre>Vue sur le fleuve</titre>
+		<artiste>Gil Robitail</artiste>
+		<prix>1087$ CAD</prix>
+		<image>vue_fleuve.jpg</image>
+	</peinture>
+	<peinture>
+		<code>lune</code>
+		<titre>C'est la pleine lune cette nuit</titre>
+		<artiste>Guy Paquet</artiste>
+		<prix>2796$ CAD</prix>
+		<image>pleine_lune.jpg</image>
+	</peinture>
+
+	<peinture>
+		<code>perso</code>
+		<titre>j'ai pas d'idée de titre !</titre>
+		<artiste>Nelson Junior YN</artiste>
+		<prix>5000$ CAD pour le XML</prix>
+		<image>cchic.png</image>
+	</peinture>
+</collection>
